@@ -2,7 +2,7 @@
   <div>
     <h1>영화 예고편 검색</h1>
     <VideoSearch @search-input="onSearchList"/>
-    <div class="row">
+    <div class="row justify-content-center">
       <VideoItem class="col-6" :videos="videos"/>
     </div>
   </div>

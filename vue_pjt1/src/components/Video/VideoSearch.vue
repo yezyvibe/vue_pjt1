@@ -1,6 +1,6 @@
 <template>
   <div class="video-search">
-    <input v-model="input" type="text">
+    <input @keypress.enter="searchVideo" v-model="input" type="text">
     <button @click="searchVideo">검색</button>
   </div>
 </template>

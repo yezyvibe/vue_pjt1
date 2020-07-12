@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <iframe :src="videoUrl" frameborder="0"></iframe>
+  <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" :src="videoUrl" allowfullscreen></iframe>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="video-item">
+  <div class="video-item col-6">
     <h3>
       비디오 아이템
     </h3>
