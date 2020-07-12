@@ -1,9 +1,10 @@
 <template>
   <div>
     <button @click="getMovies">영화 가져오기</button>
-    <span>
-      <MovieListItem v-for="movie in movies" :key="movie.id" :movie="movie"/>
-    </span>
+    <p></p>
+      <div class="row">
+        <MovieListItem class="col-3" v-for="movie in movies" :key="movie.id" :movie="movie"/>
+      </div>
   </div>
 </template>
 
